@@ -1,4 +1,16 @@
 # Portfolio
 New portfolio : )
-Please accept this what the hell am I supposed to write here? 
-it's just a basic portfolio with react :(
+
+Technology used
+- react
+- Vite
+- shadcn (pretty sure)
+
+click the Wikipedia link I got my own entry 🙃
+
+mh idk what to else put here
+oh wait
+
+What I learned 
+- haiku is bad at design
+- design skill helps make better designs
