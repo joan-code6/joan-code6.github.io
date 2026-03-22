@@ -5,7 +5,7 @@ import './App.css'
 
 function App() {
   return (
-    <Router basename="/Portfolio-v-2/">
+    <Router basename={import.meta.env.BASE_URL}>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/portfolio" element={<Portfolio />} />
