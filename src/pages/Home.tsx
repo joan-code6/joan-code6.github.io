@@ -110,7 +110,6 @@ const Home = () => {
                     initial={{ opacity: 0, x: -20 }}
                     animate={{ opacity: 1, x: 0 }}
                     transition={{ delay: 0.6 + index * 0.08, type: 'spring', stiffness: 100 }}
-                    whileHover={{ x: 4 }}
                   >
                     <skill.Icon size={22} style={{ color: skill.color }} aria-hidden />
                     <span>{skill.name}</span>
