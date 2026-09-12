@@ -20,6 +20,12 @@ The production application and review system for OutCraft Minecraft events, in p
 
 [Live site](https://apply.outcraft.net) · [Source](https://github.com/joan-code6/oc-forms)
 
+## Brettspielgeister.de
+
+A responsive client website for Brettspielgeister GbR, a Heusenstamm-based team bringing board games into education. I shaped their brand into a clear web presence for schools, libraries, kindergartens, courses, and events, with contact and legal pages included. It was built from a real brief and delivered as a live site.
+
+[Live website](https://brettspielgeister.de) · [Source code](https://github.com/joan-code6/spiele-geister-website)
+
 ## Broccoli
 
 A competitive multiplayer virtual-pet game built with my team at Hack Club's Horizons Europa hackathon in Berlin in 2026. Physical NFC chips feed and care for two on-screen broccoli pets through a Pico reader, Flask backend, React display, and Flutter companion app.
