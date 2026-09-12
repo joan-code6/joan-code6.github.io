@@ -59,7 +59,7 @@ const pages = {
   '/portfolio': {
     title: 'Projects | Bennet Joan Wegener',
     description:
-      'Selected projects by Bennet Joan Wegener: LANIS for Schulportal Hessen, award-winning Zen AI, OC Forms, Broccoli, smart garden irrigation, and qssh.',
+      'Selected projects by Bennet Joan Wegener: Brettspielgeister.de, LANIS for Schulportal Hessen, award-winning Zen AI, OC Forms, Broccoli, smart garden irrigation, and qssh.',
     canonical: 'https://joancode.dev/portfolio',
     content: `      <main class="content-page"><div class="content-shell">
         <nav class="content-nav" aria-label="Page navigation"><a class="content-back-link" href="/">Home</a></nav>
@@ -85,6 +85,12 @@ const pages = {
             <p class="project-description">The application and review system for OutCraft Minecraft events, with Discord OAuth, moderation, audit logs, roles, analytics, and whitelist export.</p>
             <p class="project-note">Built for a community of 11,000 members, OC Forms has handled more than 2,500 individual applications.</p>
             <div class="project-card-footer"><p class="project-timeline">In production since 2026</p><div class="project-links"><a class="project-link" href="https://apply.outcraft.net">Live site</a><a class="project-link" href="https://github.com/joan-code6/oc-forms">Source code</a></div></div>
+          </article>
+          <article class="project-card">
+            <h2 class="project-title">Brettspielgeister.de</h2>
+            <p class="project-description">A responsive website for Brettspielgeister GbR, a Heusenstamm-based team bringing board games into education. I shaped their brand into a clear web presence for schools, libraries, kindergartens, courses, and events, with contact and legal pages included.</p>
+            <p class="project-note">A client website built from a real brief and delivered as a live site.</p>
+            <div class="project-card-footer"><p class="project-timeline">Client project · 2026</p><div class="project-links"><a class="project-link" href="https://brettspielgeister.de">Visit website</a><a class="project-link" href="https://github.com/joan-code6/spiele-geister-website">Source code</a></div></div>
           </article>
           <article class="project-card">
             <h2 class="project-title">Broccoli</h2>

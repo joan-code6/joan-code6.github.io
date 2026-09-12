@@ -61,6 +61,18 @@ const projects: Project[] = [
     ],
   },
   {
+    title: 'Brettspielgeister.de',
+    timeline: 'Client project · 2026',
+    description:
+      'A responsive website for Brettspielgeister GbR, a Heusenstamm-based team bringing board games into education. I shaped their brand into a clear web presence for schools, libraries, kindergartens, courses, and events, with contact and legal pages included.',
+    note: 'A client website built from a real brief and delivered as a live site.',
+    tags: ['React', 'JavaScript', 'CSS', 'Responsive design', 'SEO'],
+    links: [
+      { label: 'Visit website', url: 'https://brettspielgeister.de', kind: 'demo' },
+      { label: 'Source code', url: 'https://github.com/joan-code6/spiele-geister-website', kind: 'code' },
+    ],
+  },
+  {
     title: 'Broccoli',
     timeline: 'Built at Horizons Europa in Berlin · 2026',
     description:
@@ -118,19 +130,19 @@ const Portfolio = () => {
         <title>Projects | Bennet Joan Wegener</title>
         <meta
           name="description"
-          content="Selected projects by Bennet Joan Wegener: LANIS for Schulportal Hessen, award-winning Zen AI, OC Forms, Broccoli from Hack Club Horizons Europa, smart garden irrigation, and qssh."
+          content="Selected projects by Bennet Joan Wegener: Brettspielgeister.de, LANIS for Schulportal Hessen, award-winning Zen AI, OC Forms, Broccoli, smart garden irrigation, and qssh."
         />
         <link rel="canonical" href="https://joancode.dev/portfolio" />
         <meta property="og:title" content="Projects | Bennet Joan Wegener" />
         <meta
           property="og:description"
-          content="Full-stack platforms, AI research, event infrastructure, hardware, and useful developer tools built by Bennet Joan Wegener."
+          content="Commissioned websites, full-stack platforms, AI research, event infrastructure, hardware, and useful developer tools built by Bennet Joan Wegener."
         />
         <meta property="og:url" content="https://joancode.dev/portfolio" />
         <meta name="twitter:title" content="Projects | Bennet Joan Wegener" />
         <meta
           name="twitter:description"
-          content="LANIS, Zen AI, OC Forms, Broccoli, smart garden irrigation, and qssh."
+          content="Brettspielgeister.de, LANIS, Zen AI, OC Forms, Broccoli, smart garden irrigation, and qssh."
         />
       </Helmet>
 

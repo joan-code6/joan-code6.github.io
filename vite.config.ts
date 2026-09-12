@@ -5,4 +5,7 @@ import blog from './scripts/blog'
 export default defineConfig({
   plugins: [react(), blog()],
   base: '/',
+  server: {
+    allowedHosts: ['raspi5.tailf0b36d.ts.net'],
+  },
 })
