@@ -15,4 +15,6 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
+<url><loc>https://joancode.dev/blog/</loc></url>
+<url><loc>https://joancode.dev/blog/social-media-ban/</loc></url>
 </urlset>
