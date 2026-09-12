@@ -40,7 +40,10 @@ const pages = {
               </div>
               <nav class="home-actions" aria-label="Explore">
                 <a class="portfolio-btn" href="/portfolio">View Portfolio</a>
-                <a class="press-link" href="/media">Press</a>
+                <div class="home-secondary-actions">
+                  <a class="press-link" href="/blog/">Blog</a>
+                  <a class="press-link" href="/media">Press</a>
+                </div>
               </nav>
               <div class="social-links">
                 <a href="https://github.com/joan-code6" class="social-button">GitHub</a>

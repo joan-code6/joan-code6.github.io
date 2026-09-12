@@ -5,9 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Bennet Joan Wegener</title>
     <script>
-      sessionStorage.redirect = location.href;
+      if (location.pathname === '/blog' || location.pathname.startsWith('/blog/')) {
+        location.replace('/blog/404.html');
+      } else {
+        sessionStorage.redirect = location.href;
+        location.replace('/');
+      }
     </script>
-    <meta http-equiv="refresh" content="0;URL='/'">
+
   </head>
-  <body></body>
+  <body><p>Page not found. <a href="/">Home</a> · <a href="/blog/">Blog</a></p></body>
 </html>

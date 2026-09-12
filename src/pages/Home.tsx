@@ -170,14 +170,10 @@ const Home = () => {
               >
                 View Portfolio
               </motion.button>
-              <motion.button
-                className="press-link"
-                onClick={() => navigate('/media')}
-                whileHover={{ x: 2 }}
-                whileTap={{ scale: 0.97 }}
-              >
-                Press
-              </motion.button>
+              <div className="home-secondary-actions">
+                <a className="press-link" href="/blog/">Blog</a>
+                <a className="press-link" href="/media">Press</a>
+              </div>
             </motion.div>
           </div>
         </div>
